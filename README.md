@@ -4,7 +4,7 @@
 After our paper publish, you can directly install 6mA-SniperPro via pip/conda, please wait for a while, it's coming soon.
 
 ## 1. Identification
-First, you should prepare SMRT-seq data from PacBio Sequel II platform, then use the main.py in <u>Identification</u>:
+First, you should prepare SMRT-seq data from PacBio Sequel II platform, then use the main.py in **Identification**:
 >usage: main.py 
 >>alignment_set --control CONTROL  --reference REFERENCE --outputFile OUTFILE [options]
 >
@@ -22,4 +22,4 @@ Note: before using this script, three things should be ready:
 1) Reconstruct the virtual environment in anaconda using requirements.txt
 2) Install pbcore (https://github.com/PacificBiosciences/pbcore) & download pbcommand (https://github.com/PacificBiosciences/pbcommand) from PacBio beforehand, save them to where you stored this folder.
 3) Change '--modelPath' above to where you save the model_ccs_attn.py, and '--modelDict' to where you save the state_dict.pt.
-   P.S.: Those files are available in <u>model</u>.
+   P.S.: Those files are available in **model**.
