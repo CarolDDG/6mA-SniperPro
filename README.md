@@ -21,4 +21,5 @@ For more concrete instructions, you can tape 'python main.py -h' for complete gu
 Note: before using this script, three things should be ready:
 1) Reconstruct the virtual environment in anaconda using requirements.txt
 2) Install pbcore (https://github.com/PacificBiosciences/pbcore) & download pbcommand (https://github.com/PacificBiosciences/pbcommand) from PacBio beforehand, save them to where you stored this folder.
-3) Change '--modelPath' above to where you save the model_ccs_attn.py, and '--modelDict' to where you save the state_dict.pt. P.S.: Those files are available in <u>model</u>.
+3) Change '--modelPath' above to where you save the model_ccs_attn.py, and '--modelDict' to where you save the state_dict.pt.
+   P.S.: Those files are available in <u>model</u>.
