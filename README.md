@@ -19,7 +19,7 @@ First, you should prepare SMRT-seq data from PacBio Sequel II platform, then use
 
 For more concrete instructions, you can tape 'python main.py -h' for complete guidance.
 Try using the test dataset in **demo** for understanding.
-Note: before using this script, three things should be ready:
+**Note: before using this script, three things should be ready:
 1) Reconstruct the virtual environment in anaconda using requirements.txt
 2) Install pbcore (https://github.com/PacificBiosciences/pbcore) & download pbcommand (https://github.com/PacificBiosciences/pbcommand) from PacBio beforehand, save them to where you stored this folder.
 3) Change '--modelPath' above to where you save the model_ccs_attn.py, and '--modelDict' to where you save the state_dict.pt.
