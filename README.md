@@ -18,6 +18,7 @@ First, you should prepare SMRT-seq data from PacBio Sequel II platform, then use
 >>>  [--FREQ_model FREQ_MODEL]  [--THRESHOLD_model THRESHOLD] [--dip_P DIPP] [--ks2_P KS2P]  
 
 For more concrete instructions, you can tape 'python main.py -h' for complete guidance.
+Try using the test dataset in **demo** for understanding.
 Note: before using this script, three things should be ready:
 1) Reconstruct the virtual environment in anaconda using requirements.txt
 2) Install pbcore (https://github.com/PacificBiosciences/pbcore) & download pbcommand (https://github.com/PacificBiosciences/pbcommand) from PacBio beforehand, save them to where you stored this folder.
