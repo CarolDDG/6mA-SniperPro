@@ -5,7 +5,7 @@ After our paper publish, you can directly install 6mA-SniperPro via pip/conda, p
 
 ## 1. Identification
 First, you should prepare SMRT-seq data from PacBio Sequel II platform, then use the main.py in **Identification**:
->usage: main.py 
+>usage: python main.py 
 >>alignment_set --control CONTROL  --reference REFERENCE --outputFile OUTFILE [options]
 >
 >> options:
