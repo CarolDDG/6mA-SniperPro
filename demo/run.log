@@ -1,0 +1,74 @@
+[INFO] 2024-11-05 03:32:02,293Z [__main__ _pacbio_main_runner 162] completed setting up logger with <function setup_log at 0x7f54ec121a20>
+[INFO] 2024-11-05 03:32:02,293Z [__main__ _pacbio_main_runner 165] log opts {'level': 20, 'file_name': None}
+[INFO] 2024-11-05 03:32:02,294Z [root loadSharedAlignmentSet 284] Reading AlignmentSet: WT.chr11_70000000_70100000.mm10.bam
+[INFO] 2024-11-05 03:32:02,294Z [root loadSharedAlignmentSet 285]            reference: /home/user/data3/wangjx/prj_007_6mA/Mouse_detect6mA_start230109/ref/mm10.fa
+[INFO] 2024-11-05 03:32:02,337Z [root _launchSlaveProcesses 239] Available CPUs: 160
+[INFO] 2024-11-05 03:32:02,337Z [root _launchSlaveProcesses 240] Requested worker processes: 10
+[INFO] 2024-11-05 03:32:02,355Z [root _run 40] Worker SniperWorkerProcess-1 (PID=39097) started running
+[INFO] 2024-11-05 03:32:02,363Z [root _run 40] Worker SniperWorkerProcess-2 (PID=39098) started running
+[INFO] 2024-11-05 03:32:02,372Z [root _run 40] Worker SniperWorkerProcess-3 (PID=39099) started running
+[INFO] 2024-11-05 03:32:02,380Z [root _run 40] Worker SniperWorkerProcess-4 (PID=39100) started running
+[INFO] 2024-11-05 03:32:02,386Z [root _run 40] Worker SniperWorkerProcess-5 (PID=39101) started running
+[INFO] 2024-11-05 03:32:02,395Z [root _run 40] Worker SniperWorkerProcess-6 (PID=39102) started running
+[INFO] 2024-11-05 03:32:02,404Z [root _run 40] Worker SniperWorkerProcess-7 (PID=39103) started running
+[INFO] 2024-11-05 03:32:02,413Z [root _run 40] Worker SniperWorkerProcess-8 (PID=39104) started running
+[INFO] 2024-11-05 03:32:02,422Z [root _run 40] Worker SniperWorkerProcess-9 (PID=39105) started running
+[INFO] 2024-11-05 03:32:02,430Z [root _launchSlaveProcesses 266] Launched worker processes.
+[INFO] 2024-11-05 03:32:02,433Z [root _run 40] Worker SniperWorkerProcess-10 (PID=39106) started running
+[INFO] 2024-11-05 03:32:02,440Z [root _launchSlaveProcesses 271] Launched result collector process.
+[INFO] 2024-11-05 03:32:02,441Z [root _mainLoop 315] Generating sniper's summary for [WT.chr11_70000000_70100000.mm10.bam]
+[INFO] 2024-11-05 03:32:02,441Z [root _mainLoop 321] Processing window/contig: ReferenceWindow(refId=2, refName='chr11', start=70000000, end=70100000)
+[INFO] 2024-11-05 03:32:02,441Z [resultProcess _run 26] Result collection process SniperWriter-11 (PID=39107) started running
+[INFO] 2024-11-05 03:32:02,443Z [root _run 66] Got chunk: (0, ReferenceWindow(refId=2, refName='chr11', start=70000000, end=70010000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-1' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,443Z [root _run 66] Got chunk: (1, ReferenceWindow(refId=2, refName='chr11', start=70010000, end=70020000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-2' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,443Z [root _run 66] Got chunk: (3, ReferenceWindow(refId=2, refName='chr11', start=70030000, end=70040000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-5' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,444Z [root _run 66] Got chunk: (2, ReferenceWindow(refId=2, refName='chr11', start=70020000, end=70030000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-3' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,444Z [root _run 66] Got chunk: (5, ReferenceWindow(refId=2, refName='chr11', start=70050000, end=70060000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-6' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,444Z [root _run 66] Got chunk: (4, ReferenceWindow(refId=2, refName='chr11', start=70040000, end=70050000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-4' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,444Z [root _run 66] Got chunk: (6, ReferenceWindow(refId=2, refName='chr11', start=70060000, end=70070000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-7' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,445Z [root _run 66] Got chunk: (7, ReferenceWindow(refId=2, refName='chr11', start=70070000, end=70080000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-8' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,445Z [root _run 66] Got chunk: (8, ReferenceWindow(refId=2, refName='chr11', start=70080000, end=70090000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-9' parent=38919 started>
+[INFO] 2024-11-05 03:32:02,459Z [root _run 66] Got chunk: (9, ReferenceWindow(refId=2, refName='chr11', start=70090000, end=70100000)) -- Process: <SniperWorkerProcess name='SniperWorkerProcess-10' parent=38919 started>
+[INFO] 2024-11-05 03:32:19,358Z [root step1Test 169] Retrieved 32609 filtered case hits
+[INFO] 2024-11-05 03:32:19,358Z [root step1Test 170] Retrieved 5107 filtered control hits
+[INFO] 2024-11-05 03:32:36,227Z [root step1Test 169] Retrieved 60370 filtered case hits
+[INFO] 2024-11-05 03:32:36,227Z [root step1Test 170] Retrieved 5801 filtered control hits
+[INFO] 2024-11-05 03:32:41,589Z [root step1Test 169] Retrieved 52844 filtered case hits
+[INFO] 2024-11-05 03:32:41,589Z [root step1Test 170] Retrieved 4809 filtered control hits
+[INFO] 2024-11-05 03:32:46,182Z [root step1Test 169] Retrieved 63739 filtered case hits
+[INFO] 2024-11-05 03:32:46,182Z [root step1Test 170] Retrieved 4901 filtered control hits
+[INFO] 2024-11-05 03:32:49,929Z [root _run 77] Process SniperWorkerProcess-8 (PID=39104) done; exiting.
+[INFO] 2024-11-05 03:32:50,587Z [root step1Test 169] Retrieved 67624 filtered case hits
+[INFO] 2024-11-05 03:32:50,587Z [root step1Test 170] Retrieved 5313 filtered control hits
+[INFO] 2024-11-05 03:32:56,524Z [root step1Test 169] Retrieved 85159 filtered case hits
+[INFO] 2024-11-05 03:32:56,524Z [root step1Test 170] Retrieved 5085 filtered control hits
+[INFO] 2024-11-05 03:32:56,955Z [root step1Test 169] Retrieved 54596 filtered case hits
+[INFO] 2024-11-05 03:32:56,955Z [root step1Test 170] Retrieved 4796 filtered control hits
+[INFO] 2024-11-05 03:33:00,993Z [root step1Test 169] Retrieved 81726 filtered case hits
+[INFO] 2024-11-05 03:33:00,993Z [root step1Test 170] Retrieved 1850 filtered control hits
+[INFO] 2024-11-05 03:33:04,288Z [root step1Test 169] Retrieved 64450 filtered case hits
+[INFO] 2024-11-05 03:33:04,289Z [root step1Test 170] Retrieved 5688 filtered control hits
+[INFO] 2024-11-05 03:33:24,675Z [root _run 77] Process SniperWorkerProcess-6 (PID=39102) done; exiting.
+[INFO] 2024-11-05 03:33:28,609Z [root step1Test 169] Retrieved 88351 filtered case hits
+[INFO] 2024-11-05 03:33:28,610Z [root step1Test 170] Retrieved 5577 filtered control hits
+[INFO] 2024-11-05 03:33:40,943Z [root _run 77] Process SniperWorkerProcess-4 (PID=39100) done; exiting.
+[INFO] 2024-11-05 03:33:48,356Z [root _run 77] Process SniperWorkerProcess-7 (PID=39103) done; exiting.
+[INFO] 2024-11-05 03:33:52,254Z [root _run 77] Process SniperWorkerProcess-2 (PID=39098) done; exiting.
+[INFO] 2024-11-05 03:33:53,808Z [root _run 77] Process SniperWorkerProcess-3 (PID=39099) done; exiting.
+[INFO] 2024-11-05 03:34:06,732Z [root _run 77] Process SniperWorkerProcess-9 (PID=39105) done; exiting.
+[INFO] 2024-11-05 03:34:13,507Z [root _run 77] Process SniperWorkerProcess-10 (PID=39106) done; exiting.
+[INFO] 2024-11-05 03:34:24,106Z [root _run 77] Process SniperWorkerProcess-1 (PID=39097) done; exiting.
+[INFO] 2024-11-05 03:34:24,142Z [resultProcess resConsumer 108] Writing stat records for 4658 bases
+[INFO] 2024-11-05 03:34:24,156Z [resultProcess resConsumer 108] Writing stat records for 4192 bases
+[INFO] 2024-11-05 03:34:24,164Z [resultProcess resConsumer 108] Writing stat records for 2590 bases
+[INFO] 2024-11-05 03:35:02,479Z [root _run 77] Process SniperWorkerProcess-5 (PID=39101) done; exiting.
+[INFO] 2024-11-05 03:35:02,513Z [resultProcess resConsumer 108] Writing stat records for 5116 bases
+[INFO] 2024-11-05 03:35:02,518Z [resultProcess resConsumer 108] Writing stat records for 1835 bases
+[INFO] 2024-11-05 03:35:02,525Z [resultProcess resConsumer 108] Writing stat records for 2382 bases
+[INFO] 2024-11-05 03:35:02,538Z [resultProcess resConsumer 108] Writing stat records for 4546 bases
+[INFO] 2024-11-05 03:35:02,550Z [resultProcess resConsumer 108] Writing stat records for 3865 bases
+[INFO] 2024-11-05 03:35:02,563Z [resultProcess resConsumer 108] Writing stat records for 4467 bases
+[INFO] 2024-11-05 03:35:02,563Z [resultProcess _run 52] Result thread shutting down...
+[INFO] 2024-11-05 03:35:02,632Z [root _mainLoop 339] Main process finished. Exiting.
+[INFO] 2024-11-05 03:35:02,635Z [__main__ _pacbio_main_runner 206] Max RSS (kB): 393016
+[INFO] 2024-11-05 03:35:02,635Z [__main__ _pacbio_main_runner 207] exiting with return code 0 in 180.34 sec.
