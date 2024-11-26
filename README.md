@@ -24,3 +24,6 @@ Try using the test dataset in **demo** for understanding.
 2) Install pbcore (https://github.com/PacificBiosciences/pbcore) & download pbcommand (https://github.com/PacificBiosciences/pbcommand) from PacBio beforehand, save them to where you stored this folder.
 3) Change '--modelPath' above to where you save the model_ccs_attn.py, and '--modelDict' to where you save the state_dict.pt.
    P.S.: Those files are available in **model**.
+
+---
+A more comprehensive user-friendly manual as well as a reproduciable environment at code ocean is coming soon! Just wait for a while.
