@@ -26,4 +26,4 @@ Try using the test dataset in **demo** for understanding.
    P.S.: Those files are available in **model**.
 
 ---
-A more comprehensive user-friendly manual as well as a reproduciable environment at code ocean is coming soon! Just wait for a while.
+**A more comprehensive user-friendly manual as well as a reproduciable environment at code ocean is coming soon! Just wait for a while.**
